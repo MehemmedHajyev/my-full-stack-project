@@ -9,7 +9,7 @@ const Router = () => {
                <Route index element={<Home />} />
                <Route path="/admin" element={<AdminLayout/>}></Route>
 
-            <Route path="/detail" element={<Detail/>}></Route>
+            <Route path="/detail/:id" element={<Detail/>}></Route>
 
             <Route path="*" element={<div>Not Found</div>} />
 
